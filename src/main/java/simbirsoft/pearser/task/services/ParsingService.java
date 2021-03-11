@@ -1,8 +1,5 @@
 package simbirsoft.pearser.task.services;
 
-
-import org.apache.log4j.Logger;
-
 public class ParsingService {
 
     private String controversialPart;

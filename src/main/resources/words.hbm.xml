@@ -1,0 +1,26 @@
+<?xml version='1.0'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="simbirsoft.pearser.task.models">
+
+    <class name="WordData" table="words">
+        <id name="id" type="int" column="id" >
+            <generator class="assigned" />
+        </id>
+
+        <property name="word" type="java.lang.String">
+            <column name="count" />
+        </property>
+
+        <property name="count" type="java.lang.Integer">
+            <column name="word" />
+        </property>
+
+        <property name="url" type="java.lang.String">
+            <column name="url" />
+        </property>
+    </class>
+
+</hibernate-mapping>

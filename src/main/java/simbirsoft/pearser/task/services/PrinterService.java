@@ -5,8 +5,8 @@ import java.util.HashMap;
 public class PrinterService {
 
     public void printWords(HashMap<String, Integer> wordsData) {
-        for (String s : wordsData.keySet()) {
-            System.out.println(s + ": " + wordsData.get(s));
+        for (String word : wordsData.keySet()) {
+            System.out.println(word + ": " + wordsData.get(word));
         }
     }
 

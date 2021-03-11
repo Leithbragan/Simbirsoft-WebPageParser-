@@ -1,7 +1,6 @@
 package simbirsoft.pearser.task.services;
 
 import org.apache.log4j.Logger;
-
 import java.io.*;
 import java.net.URL;
 import java.util.HashMap;
